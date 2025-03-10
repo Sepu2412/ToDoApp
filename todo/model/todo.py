@@ -12,7 +12,13 @@ class Todo :
     def add_tag(self, tag:str):
         tags = []
         if tag not in tags:
-            tags.append(tags)
+            self.tags.append(tag)
 
+    def __str__(self)-> str:
+        return f"{self.code_id} - {self.title}"
+
+class TodoBook:
+    def __init__(self):
+        self.todos = {}
 
 
