@@ -23,11 +23,15 @@ class TodoBook:
 
     def add_todo(self, title:str , description:str)-> int:
         code_id = len(self.todos)+1
-        nuevo.todo = Todo(code_id, title, description)
-        self.todos[code_id] = nuevo_todo
-        return code_id
 
-    def pending_todos:
+
+    def pending_todos(self):
+        pass
+
+    def completed_todos(self):
+        pass
+
+    def tags_todo_count(self):
         pass
 
 
